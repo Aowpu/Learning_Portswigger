@@ -90,7 +90,7 @@ Kết quả: `GET /users/search?name=peter&name=carlos&publicProfile=true`. Ứn
 - **Điểm chính 6**: Để ngăn chặn lỗ hổng Server-Side Parameter Pollution (SSPP), cần sử dụng allowlist cho ký tự hợp lệ, mã hóa đúng cách đầu vào và kiểm tra định dạng, cấu trúc dữ liệu đầu vào trước khi xử lý trên server.
 
 ### 📄 **Useful Resources**
-- [Tài liệu tham khảo 1](https://portswigger.net/web-security/learning-paths/api-testing)
+- [Tài liệu tham khảo 1](https://portswigger.net/web-security/api-testing)
 
 
 ---
