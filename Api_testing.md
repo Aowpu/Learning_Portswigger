@@ -62,7 +62,6 @@ Kết quả: `GET /users/search?name=peter&name=carlos&publicProfile=true`. Ứn
 - SSPP trong dữ liệu có cấu trúc (JSON/XML) cho phép kẻ tấn công chèn các tham số không mong muốn vào cấu trúc dữ liệu. Nếu máy chủ không xác thực đúng cách, dữ liệu độc hại có thể thay đổi hành vi của API, như nâng quyền truy cập của người dùng.
 
 - Burp cung cấp các công cụ như Burp Scanner và Backslash Powered Scanner BApp để tự động phát hiện các lỗ hổng SSPP, nhưng vẫn cần kiểm tra thủ công các đầu vào đáng ngờ để xác nhận chúng là lỗ hổng.
-- 
 ### 🚀 **Vulnerabilities Covered**
 - **Lỗ hổng 1**: Index listing khi xóa bớt phần của dường dẫn.
     - Khi xóa từng phần của đường dẫn api dẫn tới khi còn đường dẫn cuối thì ra chức năng của admin.
